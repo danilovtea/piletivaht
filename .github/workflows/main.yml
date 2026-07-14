@@ -3,6 +3,7 @@ name: Piletivaht
 on:
   schedule:
     - cron: '0 6 * * 5,6'
+  workflow_dispatch:
 
 jobs:
   run:
